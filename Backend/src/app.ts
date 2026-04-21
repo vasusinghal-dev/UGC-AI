@@ -8,8 +8,8 @@ const app = express();
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://ugc-ai-tau.vercel.app/",
-  "https://ugc-ai.vasusinghal.com/",
+  "https://ugc-ai-tau.vercel.app",
+  "https://ugc-ai.vasusinghal.com",
 ];
 
 app.use(
