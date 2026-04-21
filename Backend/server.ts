@@ -1,4 +1,4 @@
-import "./src/config/instrument.mjs";
+import "./config/instrument.mjs";
 import "dotenv/config";
 import app from "./src/app.js";
 import * as Sentry from "@sentry/node";

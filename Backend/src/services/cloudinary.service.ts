@@ -1,7 +1,7 @@
 import { v2 as cloudinary } from "cloudinary";
 import fs from "fs";
 import path from "path";
-import ai from "../config/ai.js";
+import ai from "../../config/ai.js";
 import axios from "axios";
 
 export const uploadImages = async (files: Express.Multer.File[]) => {

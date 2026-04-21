@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import * as Sentry from "@sentry/node";
-import { prisma } from "../config/prisma.js";
+import { prisma } from "../../config/prisma.js";
 
 /**
  * @name getUserCredits

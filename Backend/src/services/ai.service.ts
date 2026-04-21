@@ -1,6 +1,6 @@
 import fs from "fs";
 import axios from "axios";
-import replicate from "../config/ai.js";
+import replicate from "../../config/ai.js";
 
 const loadImage = async (path: string, mimetype: string) => {
   try {

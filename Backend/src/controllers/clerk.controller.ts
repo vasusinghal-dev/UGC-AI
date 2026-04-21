@@ -1,6 +1,6 @@
 import { verifyWebhook } from "@clerk/express/webhooks";
 import { Request, Response } from "express";
-import { prisma } from "../config/prisma.js";
+import { prisma } from "../../config/prisma.js";
 import * as Sentry from "@sentry/node";
 
 /**

@@ -1,6 +1,6 @@
 import express from "express";
 import * as projectControllers from "../controllers/project.controller.js";
-import upload from "../config/multer.js";
+import upload from "../../config/multer.js";
 import { protect } from "../middlewares/auth.middleware.js";
 
 const projectRouter = express.Router();
