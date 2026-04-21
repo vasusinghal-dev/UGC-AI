@@ -6,7 +6,11 @@ import clerkWebhooks from "./controllers/clerk.controller.js";
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://ugc-ai-tau.vercel.app/",
+  "https://ugc-ai.vasusinghal.com/",
+];
 
 app.use(
   cors({
@@ -21,7 +25,7 @@ app.use(
   }),
 );
 
-app.use(clerkMiddleware({ clockSkewInMs: 100000 }));
+app.use(clerkMiddleware());
 
 app.use("/api/clerk", express.raw({ type: "application/json" }), clerkWebhooks);
 
