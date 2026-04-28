@@ -9,7 +9,7 @@
 - **Ad Creatives**: Produce authentic-looking ad creatives with real people using products
 - **A/B Testing**: Quickly generate multiple variations of product images for testing
 
-## 📸 Screenshots## 📸 Screenshots
+## 📸 Screenshots
 
 | Home                        | Create                        |
 | --------------------------- | ----------------------------- |
